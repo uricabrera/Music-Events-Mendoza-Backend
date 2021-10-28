@@ -47,6 +47,14 @@
       "config": {
         "policies": []
       }
+    },
+    {
+      "method": "GET",
+      "path": "/events/me",
+      "handler": "events.me",
+      "config": {
+        "policies": []
+      }
     }
   ]
 }
